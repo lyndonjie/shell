@@ -1,0 +1,8 @@
+#!/bin/sh
+tput clear
+echo "total num of rows=\c"
+tput lines
+echo "total num of colums=\c"
+tput cols
+
+

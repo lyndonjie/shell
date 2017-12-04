@@ -1,0 +1,6 @@
+#!/bin/sh
+set i am joe
+
+
+echo the words counting is $#
+

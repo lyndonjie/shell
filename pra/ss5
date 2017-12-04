@@ -1,0 +1,4 @@
+#!/bin/sh
+chmod u+x $1
+ls -l $1
+

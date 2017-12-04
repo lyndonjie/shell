@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "enter a name"
+read fname
+if [ -f $fname ]
+then
+	echo "yes"
+else
+	echo "Plz enter a file name"
+fi

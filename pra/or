@@ -1,0 +1,15 @@
+#!/bin/sh
+echo "enter a lower char"
+read char
+if test `echo $char | wc -c` -eq 2
+then
+	if test $char = a -o $char = e -o $char = i -o $char = o -o $char = u
+	then
+		echo "entered $char"
+	else
+		echo "didnt entered aeiou"
+	fi
+else
+	echo "failed"
+fi
+

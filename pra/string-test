@@ -1,0 +1,12 @@
+#!/bin/sh
+str1="hey"
+str2="whats up?"
+str3=""
+test "$str1" = "$str2"
+echo $?
+test "$str1" != "$str2"
+echo $?
+test -n "str1"
+echo $?
+test -n "str3"
+echo $?

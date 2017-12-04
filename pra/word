@@ -1,0 +1,20 @@
+#!/bin/sh
+echo "enter a word"
+read word
+case $word in
+[aeiou]* | [AEIOU]*)
+	echo "the word begins with aeiou"
+	;;
+[0-9]*)
+	echo "the word begins with a digit"
+	;;
+*[0-9])
+	echo "the word ends with a digit"
+	;;
+???)
+	echo "you entered a three letter word"
+	;;
+*)
+	echo "i dont you what u have entered"
+	;;
+esac

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "provide the old file name"
+read old_name
+echo "provide the new file name"
+read new_name
+mv $old_name $new_name
+cat $new_name

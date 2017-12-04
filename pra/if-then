@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "please enter file name and new file name"
+read file file1
+if mv $file $file1
+then
+echo "Successed renamed"
+fi
+

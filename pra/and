@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "Enter a num between 50 and 100"
+read num
+if test $num -le 100 -a $num -ge 50
+then
+	echo "you are right"
+else
+	echo "you are wrong"
+fi
